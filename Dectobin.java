@@ -30,6 +30,6 @@
 	        }
 	 }
          else
-          System.out.print("Cannot be converted:");
+          System.out.print("Cannot be converted");
 	}
        }
