@@ -1,7 +1,7 @@
 	import java.io.*;
 	import java.util.Scanner;
-  public class Exten1 {
-  public static void main(String args[])
+        public class Exten1 {
+        public static void main(String args[])
 	    {
 	    	Scanner in=new Scanner(System.in);
 	        String name;
@@ -15,11 +15,15 @@
 	        {
 	        	if(a[i]=='.')
 	        		{
-	        		 flg=1;
+	         		 flg=1;
 	        		 i++;
 	        		}
-	        	  if(flg==1)
+	        	if(flg==1)
 	        		System.out.print(a[i]);
 	        }
-	     	}
+	        if(flg==0)
+                 {
+                        System.out.println("No Extension");
+                  }
+	      }
 	    }
