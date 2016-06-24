@@ -15,7 +15,7 @@ public class Fibonacci {
             {
             System.out.println("Fibonacci Series");
             System.out.println(a+"\n"+b);
-            for(count=0;count<n;count++)
+            for(count=2;count<n;count++)
             {
                 c=a+b;
                 System.out.println(c);
