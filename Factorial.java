@@ -14,7 +14,7 @@ public class Factorial {
             System.out.println("Factorial:"+fac);
         }
         else
-            System.out.println("Factorial:0");
+            System.out.println("Factorial Cannot Be Determined");
         
     }
     static int fact(int n)
