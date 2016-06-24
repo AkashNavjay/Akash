@@ -11,6 +11,8 @@ public class Fibonacci {
             int n,count,a=0,b=1,c;
             System.out.println("Enter the range:");
             n=in.nextInt();
+            if(n>=1)
+            {
             System.out.println("Fibonacci Series");
             System.out.println(a+"\n"+b);
             for(count=0;count<n;count++)
@@ -20,6 +22,9 @@ public class Fibonacci {
                 a=b;
                 b=c;
             }
+            }
+            else
+            System.out.println("Fibonacci Series Cannot Be printed");
         }
         catch(Exception e)
         {
